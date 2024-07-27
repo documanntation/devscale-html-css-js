@@ -1,0 +1,41 @@
+/* #box-satu {
+  background-color: #0dc4de;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000000;
+  margin-left: 120px;
+}
+
+#box-dua {
+  background-color: #29de0d;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#box-tiga {
+  background-color: #de760d;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000000;
+  margin-left: 120px;
+} */
+
+#parent {
+  width: 400px;
+  height: 400px;
+  background-color: #0d3dde;
+  position: relative;
+  border-radius: 200px;
+}
+
+#child {
+  width: 100px;
+  height: 100px;
+  background-color: #0dd8de;
+  position: absolute;
+  border-radius: 50px;
+  bottom: 0;
+  top: 0;
+}
